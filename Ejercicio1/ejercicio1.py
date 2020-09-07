@@ -1,13 +1,12 @@
 #Problema 2: Conocer si un número es par o no 
 
-
 #Funcion Principal
 
 def main():
     try:
-        numero = int(input("Escriba algún número"))
+        numero = int(input("Escriba algún número: "))
     except ValueError:
-        print ("Caracter inválido")
+        print ("Caracter inválido, ingrese un número entero")
         main()
 
     bandera = validacion(numero)
@@ -20,6 +19,5 @@ def main():
 #Revision par o impar
 def validacion(numero):
     return(bool(numero % 2==0))
-
 
 main()
