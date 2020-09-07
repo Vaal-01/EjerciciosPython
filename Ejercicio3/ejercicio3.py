@@ -1,4 +1,4 @@
-#Problema 4 Decuento del producto
+#Problema 4 Descuento del producto
 
 # Funcion principal
 def main():
@@ -12,7 +12,7 @@ def main():
         if diaS=="l" or diaS=="m" or diaS=="M" or diaS=="j" or diaS=="v" or diaS=="s" or diaS=="d":
             valorD= float(calcularDescuento(precioP,diaS))
             valorT= precioP - valorD
-            print("El valor de descuento es de: "+ str(valorD)+ " por lo que eñ valor total es: " + str(valorT))
+            print("El valor de descuento es de: "+ str(valorD)+ " por lo que el valor total es: " + str(valorT))
         else:
             print("Lo sentimos, el día que ingreso no es admitido")
             print("Intente de nuevo desde el comienzo")
