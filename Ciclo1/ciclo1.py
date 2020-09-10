@@ -25,7 +25,7 @@ def verificarpalabraPalindroma(cadena):
         indice+=1
         final-=1
     if cadena == cadena2 :
-           
+
         palindroma = True
       
     return palindroma
